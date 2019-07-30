@@ -4,9 +4,9 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { CrisisListComponent } from './crisis-list/crisis-list.component';
-import { HeroListComponent } from './heroes/hero-list/hero-list.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HeroesModule } from './heroes/heroes.module';
+import {CrisisCenterComponent} from './crisis-center/crisis-center/crisis-center.component';
 
 
 
@@ -15,6 +15,7 @@ import { HeroesModule } from './heroes/heroes.module';
     AppComponent,
     CrisisListComponent,
     PageNotFoundComponent,
+    CrisisCenterComponent,
   ],
   imports: [
     BrowserModule,
